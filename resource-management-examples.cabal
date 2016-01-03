@@ -1,0 +1,82 @@
+name:                resource-management-examples
+version:             0.1.0.0
+-- synopsis:            
+-- description:         
+license:             MIT
+license-file:        LICENSE
+author:              Andreas Herrmann
+maintainer:          andreash87@gmx.ch
+-- copyright:           
+-- category:            
+build-type:          Simple
+-- extra-source-files:  
+cabal-version:       >=1.10
+
+library
+  exposed-modules:     Resource
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base >=4.8 && <4.9
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
+
+executable 02_haskell_open_close
+  main-is:             02_haskell_open_close.hs
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base >=4.8 && <4.9
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
+
+executable 03_haskell_with
+  main-is:             03_haskell_with.hs
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base >=4.8 && <4.9
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
+
+executable 04_haskell_cont
+  main-is:             04_haskell_cont.hs
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base >=4.8 && <4.9
+                     , transformers
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
+
+executable 05_haskell_scope_guard
+  main-is:             05_haskell_scope_guard.hs
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base >=4.8 && <4.9
+                     , transformers
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
+
+executable 06_haskell_copy_cont
+  main-is:             06_haskell_copy_cont.hs
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base >=4.8 && <4.9
+                     , transformers
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
+
+executable 06_haskell_copy_with
+  main-is:             06_haskell_copy_with.hs
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base >=4.8 && <4.9
+                     , transformers
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
+
+executable 07_haskell_stack
+  main-is:             07_haskell_stack.hs
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base >=4.8 && <4.9
+                     , transformers
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
