@@ -1,7 +1,8 @@
 Resource Management in Haskell - Examples
 =========================================
 
-Example codes for this blog post. **TODO** *Add link*.
+Example codes for
+[this blog post](http://aherrmann.github.io/programming/2016/01/04/resource-management-in-haskell/).
 
 Compile
 -------
